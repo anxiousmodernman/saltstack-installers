@@ -33,7 +33,7 @@ EOL
 yum clean expire-cache
 yum update -y
 
-# By default we will install a master and salt-ssh
+# By default we will install a minion and salt-ssh
 yum install -y salt-${MINION_OR_MASTER}
 yum install -y salt-ssh
 
